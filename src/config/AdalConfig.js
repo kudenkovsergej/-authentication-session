@@ -1,11 +1,11 @@
 // src/config/AdalConfig.js
 export default {
-  clientId: 'ENTER THE APPLICATION ID OF THE REGISTERED WEB APP ON AZURE',
+  clientId: '12b1f90b-92a0-4736-9a1e-bd8546bf5588',
   endpoints: {
-    api: "ENTER THE APPLICATION ID OF THE REGISTERED API APP ON AZURE" // Necessary for CORS requests, for more info see https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/CORS-usage
+    api: "onehavi-DWH Logistics-fc190f45-14bd-449e-a137-b4f8f5b8b9ba" // Necessary for CORS requests, for more info see https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/CORS-usage
   },
   // 'tenant' is the Azure AD instance.
-  tenant: 'ENTER YOUR TENANT ID',
+  tenant: '585bda71-88ce-428b-9832-95eaa3dce989',
   // 'cacheLocation' is set to 'sessionStorage' by default (see https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/Config-authentication-context#configurable-options.
   // We change it to'localStorage' because 'sessionStorage' does not work when our app is served on 'localhost' in development.
   cacheLocation: 'localStorage'
